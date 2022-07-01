@@ -15,8 +15,7 @@ Since this is a project I'm working on, I'm planning to add a few more apps/feat
 - A game launcher app planned.
 - Todo list Interation with discord planned.
 
-Could You Help?
------------------
+## Could You Help?
 If you have any ideas for apps or features, please let me know via discord.
 I also need to a more creative name besides "Hub".
 <br>
