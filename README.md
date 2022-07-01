@@ -14,13 +14,11 @@ This application is a collection of a bunch of fun little python apps, witch can
 Since this is a project I'm working on, I'm planning to add a few more apps/features.
 - A game launcher app planned.
 - Todo list Interation with discord planned.
-Yay!
 ## Could You Help?
 If you have any ideas for apps or features, please let me know via discord.
 I also need to a more creative name besides "Hub".
 <br>
 Discord: ```MassiveZappy#7111```
----
 ## Finally, how do I install this!?
 If you run a Mac, you can download the app from the [releases page](https://github.com/massivezappy/hub/releases).
 If not, you can:
