@@ -18,7 +18,7 @@ I also need to a more creative name besides "Hub".
 <br>
 Discord: ```MassiveZappy#7111```
 ---
-##Finally, how do I install this!?
+## Finally, how do I install this!?
 If you run a Mac, you can download the app from the [releases page](https://github.com/massivezappy/hub/releases).
 If not, you can:
 - Download python (Version 3.10 is tested) from [python.org](https://www.python.org/downloads/).
