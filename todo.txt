@@ -1,0 +1,5 @@
+compile hub and upload to github!
+Add a home screen!
+Add The Summer Reading / Book Calculator!
+Add suficient 
+text Wraping to this
