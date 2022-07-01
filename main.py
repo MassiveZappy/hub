@@ -58,7 +58,7 @@ def renderTodoWindow(root):
     todoRemoveButton.grid(row=2, column=2, sticky=N+S+E+W)
     # home button
     homeButton = Button(window, text="Home", command=lambda: renderHomeWindow(window))
-    homeButton.grid(row=0, sticky=N+S+E+W)
+    homeButton.grid(row=0, column=1, columnspan=2, sticky=N + S + E + W)
     window.mainloop()
 
 def renderBookCalculatorWindow(root):
