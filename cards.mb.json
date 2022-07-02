@@ -1,0 +1,25 @@
+{
+  "cards": [
+    {
+      "id": "0",
+      "name": "BRT-11",
+      "description": "Starter card",
+      "coin": "bitcoin",
+      "perSec": "0.00002",
+      "price": "100"
+    },
+    {
+      "id": "1",
+      "name": "PRT 800",
+      "description": "Slightly faster card",
+      "coin": "bitcoin",
+      "perSec": "0.00006",
+      "price": "300"
+    },
+    {
+      "id": "2",
+        "name": "PRT 1000",
+        "description": "Faster card",
+        "coin": "bitcoin",
+    }
+  }

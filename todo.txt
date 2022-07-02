@@ -1,5 +1,12 @@
-compile hub and upload to github!
 Add a home screen!
 Add The Summer Reading / Book Calculator!
-Add suficient 
+Add suficient
 text Wraping to this
+Add raw editing to This
+Add import/expot
+add file converters
+integrate with caned
+hi
+hi
+hi
+The hi spam is here for you to scroll! This is for you to scroll left/right. This is a replacement for the text wraping.
