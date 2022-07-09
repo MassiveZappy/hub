@@ -1,5 +1,7 @@
 import webbrowser
 from tkinter import *
+from tkinter.ttk import Progressbar
+
 import MinerBuddy
 import mic
 import todo
@@ -20,6 +22,9 @@ def renderHomeWindow(*root):
     bookCalculatorButton.pack()
     aboutButton = Button(root, text="About", command=lambda: renderAboutWindow(root))
     aboutButton.pack()
+    # same for the TicTacToe button
+    ticTacToeButton = Button(root, text="TicTacToe", command=lambda: renderTicTacToeWindow(root))
+    ticTacToeButton.pack()
     root.iconbitmap("icon.ico")
     root.mainloop()
 def renderTodoWindow(root):
@@ -101,4 +106,40 @@ def renderAboutWindow(root):
     window.mainloop()
     return window
 def renderMinerBuddyWindow(root):
-    MinerBuddy.MinerBuddy(root)
+    # MinerBuddy.MinerBuddy(root)
+    root.destroy()
+    window = Tk()
+    window.title("Miner Buddy")
+    window.configure(background="black")
+    window.iconbitmap("icon.ico")
+    # make a label
+    label = Label(window, text="Miner Buddy is a WIP", font=("Ubuntu", 22))
+    label.grid(row=0, column=0, sticky=N + S + E + W)
+    progressBar = Progressbar(window, orient=HORIZONTAL, mode="determinate")
+    progressBar.grid(row=1, column=0, columnspan=2, sticky=N + S + E + W)
+    progressBar["value"] = 25
+    # make a button to go home
+    homeButton = Button(window, text="Home", command=lambda: renderHomeWindow(window))
+    homeButton.grid(row=2, column=0, sticky=N + S + E + W)
+    window.mainloop()
+
+def renderTicTacToeWindow(root):
+    root.destroy()
+    window = Tk()
+    window.title("TicTacToe")
+    window.configure(background="black")
+    window.iconbitmap("icon.ico")
+    # make a label
+    label = Label(window, text="TicTacToe is a WIP", font=("Ubuntu", 22))
+    label.grid(row=0, column=0, sticky=N+S+E+W)
+    progressBar = Progressbar(window, orient=HORIZONTAL, mode="determinate")
+    progressBar.grid(row=1, column=0,columnspan=2, sticky=N+S+E+W)
+    progressBar["value"] = 25
+    # make a button to go home
+    homeButton = Button(window, text="Home", command=lambda: renderHomeWindow(window))
+    homeButton.grid(row=2, column=0, sticky=N+S+E+W)
+    window.mainloop()
+    # # create a frame to hold the tic tac toe board
+    # ticTacToeBoardFrame = Frame(window)
+    # text1 = Label(ticTacToeBoardFrame, text="-", font=("Ubuntu", 16))
+    # button1 = Button(ticTacToeBoardFrame, text="1", command=lambda: ticTacToe.play(1, text1, button1))

@@ -1,12 +1,10 @@
 Add a home screen!
-Add The Summer Reading / Book Calculator!
-Add suficient
-text Wraping to this
-Add raw editing to This
-Add import/expot
-add file converters
-integrate with caned
+Add the book calculator!
+Add import/export to the todo list
+Add file converters to this
+Integrate with Caned (another project)
+Integrate with Discord
 hi
 hi
 hi
-The hi spam is here for you to scroll! This is for you to scroll left/right. This is a replacement for the text wraping.
+The hi spam is here for you to scroll! This is for you to scroll left/right. This is a replacement for the text wrapping That was actually feasible.
