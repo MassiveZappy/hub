@@ -23,8 +23,5 @@ If you run a Mac, you can download the app from the [releases page](https://gith
 If not, you can:
 - Download python (Version 3.10 is tested) from [python.org](https://www.python.org/downloads/).
 - Clone/Download the repo.
-- Install the requirements.txt file by navigating to the main folder and running the following command in your terminal/shell/console.
-```shell
-pip install -r requirements.txt
-```
+- Install all pip requirements.
 - Run the main.py file.
